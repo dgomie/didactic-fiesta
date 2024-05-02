@@ -112,6 +112,7 @@ router.put('/:id', (req, res) => {
     });
 });
 
+//delete not currently working
 router.delete('/:id', async (req, res) => {
   try {
     const productData = await Product.destroy({

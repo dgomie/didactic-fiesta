@@ -1,47 +1,76 @@
 # E-commerce Back End Starter Code
 
-  ##### Table of Contents  
-  [Description](#description)  
-  [Installation](#installation)  
-  [Usage](#usage)  
-  [Contributions](#contributions)  
-  [Tests](#tests)  
-  [Questions](#questions)  
-  [License](#license)  
+##### Table of Contents
 
-  ## Description  
-  This project was created to help users write and save notes for future use. The application utilizes the Express framework and uses api routes to access a database that stores the users notes. 
+[Description](#description)  
+ [Installation](#installation)  
+ [Usage](#usage)   
+ [Video Walkthrough](#video-walkthrough)   
+ [Contributions](#contributions)  
+ [Tests](#tests)  
+ [Questions](#questions)  
+ [License](#license)
 
-  ## Installation  
-  N/A
-  
+## Description
 
-  ## Usage  
-  To use the application navigate to https://powerful-savannah-76326-c5c8a3c5a51c.herokuapp.com/
+This is project is the backend for an e-commerce website, built using Express.js and Sequelize ORM. It provides the necessary API routes for managing categories, products, and tags.
 
-  <img src='./images/note-taker-hp.png' width=500px alt="Homepage view of Note Taker site." />
+## Installation
 
-  Click the ```Get Started``` button to navigate to the notes page. Fill in the 'Note Title' and 'Note Text' areas. Once text is input in both areas, ```Save Note``` and ```Clear Form``` buttons will appear in the top right of the page. 
-  
-  <img src='./images/note-take-buttons.png' width=500px alt="Close up of Save Note and Clear Form buttons" />
+1. Clone the repository.
+2. Run npm install to install dependencies.
+3. Create a .env file in the root directory and add the following variables:
+
+```
+DB_NAME=your_database_name
+DB_USER=your_mysql_username
+DB_PASSWORD=your_mysql_password
+```
+
+4. Run the following commands to set up the database:
+
+```
+npm run schema
+npm run seed
+```
+
+## Usage
+
+To start the server, run the command:
+
+```
+npm start
+```
+
+Alternatively, if in development, run the command:
+
+```
+npm run watch
+```
+
+The API will be accessible at http://localhost:3001.
+
+## Video Walkthrough
+A video demonstration of the setup of this application and how to access the API routes can be found here:
 
 
-  Once the ```Save Note``` button is clicked, the note will be added to the notes list on the left, and the text areas will be returned to their default placeholders. To access previous notes, click on a note title in the list on the left side of the page. The main text area will be populated with the stored note data. Clicking on the trash can icon will permananetly delete the note from both the list and from the database.
+## Contributions
 
-  <img src='./images/note-taker-notes.png' width=500px alt="View of Note Taker app with list of saved notes on the left side of the page." />
+Github user [Xandromus](https://github.com/Xandromus): [Starter Code Repo](https://github.com/coding-boot-camp/fantastic-umbrella)
 
-  ## Contributions  
-  Github user [Xandromus](https://github.com/Xandromus): [Starter Code Repo](https://github.com/coding-boot-camp/fantastic-umbrella)
+## Tests
 
+Use [Insomnia Core](https://insomnia.rest/) to test the API routes.
 
-  ## Tests  
-  N/A
+1. Open Insomnia Core.
+2. Import the Insomnia Core workspace containing the API requests.
+3. Test the API requests for categories, products, and tags.
 
+## Questions
 
-  ## Questions
-  For any questions regarding the repository, contact me via:
-  * Github: [dgomie](https://www.github.com/dgomie)
-  * Email: <a href="mailto:danny.f.gomez@gmail.com">danny.f.gomez@gmail.com</a>
-  
-  ## License
-    
+For any questions regarding the repository, contact me via:
+
+- Github: [dgomie](https://www.github.com/dgomie)
+- Email: <a href="mailto:danny.f.gomez@gmail.com">danny.f.gomez@gmail.com</a>
+
+## License

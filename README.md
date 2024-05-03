@@ -53,6 +53,8 @@ The API will be accessible at http://localhost:3001.
 ## Video Walkthrough
 A video demonstration of the setup of this application and how to access the API routes can be found here:
 
+[Video Demo](https://drive.google.com/file/d/1f3Bel3NX12dO5Mru1oFFyy66Nf2y1vON/view?usp=drive_link)
+
 
 ## Contributions
 

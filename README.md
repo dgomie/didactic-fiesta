@@ -34,6 +34,8 @@ npm run schema
 npm run seed
 ```
 
+<img src='./public/images/ecommerce-db.png' width=300>
+
 ## Usage
 
 To start the server, run the command:
@@ -67,6 +69,13 @@ Use [Insomnia Core](https://insomnia.rest/) to test the API routes.
 1. Open Insomnia Core.
 2. Import the Insomnia Core workspace containing the API requests.
 3. Test the API requests for categories, products, and tags.
+
+<img src='./public/images/get-all-products.png' width=450>  
+<img src='./public/images/get-single-product.png' width=450>  
+<img src='./public/images/create-product.png' width=450>  
+<img src='./public/images/update-product.png' width=450>  
+<img src='./public/images/delete-product.png' width=450>
+
 
 ## Questions
 
